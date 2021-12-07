@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: black;
+}
+
+.App-header .foto {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 70px 0 35px;
+}
+
+
+.App-header .foto img{
+  position: absolute;
+  right:-30px;
+  width: auto;
+  height: 100px;
+}
+
+.description {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.info {
+  display: flex;
+  margin: 50px auto;
+  width: 80%;
+}
+
+.info div {
+  margin: 30px;
+}
+
+.info div p {
+  text-align: justify;
+}
+
+.contactInfo {
+  margin: 30px;
+}
+
+.contact {
+  width: 30%;
+  margin: 0 auto 70px;
+}
+
+.contact label,
+.contact input {
+  font-size: large;
+  width: 100%;
+  display: block;
+  text-align: left;
+}
+.contact input {
+  background:rgb(195, 195, 195);
+  border: none;
+}
+.contact #messaggio {
+  height: 50px;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  margin: 0;
+  background: rgb(195, 195, 195);
+}
