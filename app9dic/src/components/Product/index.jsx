@@ -4,6 +4,7 @@ import ColorChoise from '../ColorChoise';
 import Size from '../Size';
 import Button from '../Button';
 import ImageProduct from '../ImageProduct'
+import './style.css'
 
 
 const Product = ({ urlimage, imageDescription, title, price, content, colors, size, size1, size2, size3, buttonAction }) => (

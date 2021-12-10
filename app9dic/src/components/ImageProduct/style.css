@@ -1,4 +1,21 @@
-.image-product img{
-    width: 300px;
-    border-radius: 50%;
-}
+.image-product{
+    position: relative;
+    width: 240px;
+    height: 320px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 2px gray;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  
+  .image-product img{
+  
+    border-radius: 25px;
+    position: absolute;
+    top: -80px;
+    right: 0px;
+    width: 240px;
+    transform: scaleX(-1); 
+    overflow: hidden;
+  }

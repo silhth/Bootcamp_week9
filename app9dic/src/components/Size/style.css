@@ -1,0 +1,36 @@
+/* colors */
+
+.size {
+  margin: 0px 30px;
+}
+
+.size h3{
+  margin: 7px 0 3px;
+  font-size: 14px;
+}
+
+.size-choise {
+  display: flex;
+  font-size: 12px;
+}
+
+
+.size-choise div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 7px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 20px;  
+}
+
+.size1 {
+  background-color: black;
+  color: white;
+}
+
+.size2,
+.size3 {
+  background-color:rgba(196, 196, 196);
+}

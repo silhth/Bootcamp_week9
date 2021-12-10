@@ -1,0 +1,13 @@
+
+.button_add-to-cart {
+  display: block;
+  margin: 30px auto;
+  background-color: black;
+  color: white;
+  width: 120px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  padding: 5px 0;
+
+}

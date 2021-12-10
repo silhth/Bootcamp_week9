@@ -1,0 +1,41 @@
+/* colors */
+.colors {
+  margin: 0px 30px;
+}
+
+.colors h3{
+  margin: 7px 0 3px;
+  font-size: 14px;
+}
+
+.color-choise {
+  display: flex;
+}
+
+.color-choise div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 7px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 25px;  
+}
+
+.color-choise_color1{
+  background-color: black;
+
+}
+.color-choise_color2{
+  background-color: rgba(44, 21, 136);
+
+}
+.color-choise_color3{
+  background-color: rgba(220, 203, 47);
+
+}
+.color-choise_color4{
+  background-color: rgba(91, 102, 98);
+
+}
+
